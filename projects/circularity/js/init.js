@@ -49,7 +49,7 @@ var init = function (window) {
         */
         function update() {
             // TODO 4 : Update the circle's position //
-           
+           s in
            
 
             // TODO 8 : Iterate over the array
