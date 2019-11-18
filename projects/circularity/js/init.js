@@ -1,4 +1,4 @@
-var init = function (window) {
+-=-=\\\\\\\\\zvar init = function (window) {
     'use strict';
     var 
         draw = window.opspark.draw,

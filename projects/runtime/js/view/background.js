@@ -26,7 +26,7 @@ var background = function (window) {
         var background;
         
         // ANIMATION VARIABLES HERE:
-        
+        var building ;
      
         // called at the start of game and whenever the page is resized
         // add objects for display in background. draws each image added to the background once
@@ -56,10 +56,10 @@ var background = function (window) {
             
             
             // TODO: 5 - Add buildings!     Q: This is before TODO 4 for a reason! Why?
-           var buildings = [];
+          
            
            var buildingHeight = 300;
-var building;
+        var building;
 for(var i=0;i<5;++i) {
     building = draw.rect(75,buildingHeight,'LightGray','Black',1);
     building.x = 200*i;
