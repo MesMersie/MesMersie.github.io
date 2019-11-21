@@ -1,4 +1,4 @@
--=-=\\\\\\\\\zvar init = function (window) {
+var init = function (window) {
     'use strict';
     var 
         draw = window.opspark.draw,
@@ -49,15 +49,12 @@
         */
         function update() {
             // TODO 4 : Update the circle's position //
-           s in
-           
-
             // TODO 8 : Iterate over the array
             for (var index = 0; index < circles.length; index++) {
-    var eachCircle = circles[index];
-   physikz.updatePosition(eachCircle);
-   game.checkCirclePosition(eachCircle);
-       }
+                var eachCircle = circles[index];
+                physikz.updatePosition(eachCircle);
+                game.checkCirclePosition(eachCircle);
+            }
 
             
         }
@@ -76,11 +73,11 @@
             if ( circle.x < 0) {
                 circle.x = canvas.width;
             }
-            if ( circle.y > canvas.hieght ) {
+            if ( circle.y > canvas.height ) {
                 circle.y = 0;
             }
             if ( circle.y < 0) {
-                circle.y = canvas.hieght;
+                circle.y = canvas.height;
             }
             // TODO 5 : YOUR CODE STARTS HERE //////////////////////
             
